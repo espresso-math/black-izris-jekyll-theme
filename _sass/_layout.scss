@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -11,16 +9,23 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font: 18pt/1.5 serif;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    position: absolute;
+    top: 0px;
+    letter-spacing: 2px;
+    left: 10%;
     float: left;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #333;
+    }
+    &:hover {
+        text-decoration: none;
     }
 }
 
@@ -42,7 +47,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    // Navigation icon
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
@@ -89,7 +94,6 @@
             }
             margin-left: 20px;
         }
-    }
 }
 
 
@@ -98,7 +102,6 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -201,26 +204,50 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font: 32pt/1.5 'Playfair Display', serif;
+    text-align: center;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font: 32pt/1.5 'Playfair Display', serif;
     }
+}
+
+.post-cool {
+    font: 15pt/1.5 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 9px;
+    padding-bottom: 0;
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
+    p {
+        width: 33em;
+        font: 14pt/1.5 serif;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        text-indent: 0.75em;
+    }
+
+    @include media-query($on-palm) {
+        width: inherit;
+    }
+
+    p:first-child {
+        text-indent: 0;
+    }
+
     h2 {
-        font-size: 32px;
+        font: 24pt/1.5 'Playfair Display', serif;
+        margin-bottom: 0;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font: 24pt/1.5 'Playfair Display', serif;
         }
     }
 
@@ -239,4 +266,15 @@
             font-size: 18px;
         }
     }
+}
+
+
+/* Typographical eye candy */
+
+.kern {
+    letter-spacing: -0.1em;
+}
+
+.bigo {
+    font: 24pt/1.5 'Playfair Display', serif;
 }
