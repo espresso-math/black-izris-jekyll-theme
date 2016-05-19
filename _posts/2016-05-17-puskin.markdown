@@ -5,7 +5,7 @@ date:   2016-05-17 16:24:38 +0530
 categories: pushkin
 ---
 
-
+<p id="gohug">
 <span class = "kern"><span class = "bigo">T</span></span>he Belogorsk fortress was situated at a distance of forty 
 versts from Orenburg. The road lay along the steep bank of the 
 Yaik. The river was not yet frozen over, and its leaden current
@@ -26,9 +26,8 @@ On one side of the road were three or four haystacks, half-
 covered with snow, on the other a tumble-down mill with idly
 drooping bark sails. "Where's the fortress?" I asked in surprise.
 "There it is," replied the driver, pointing to the hamlet into 
-which we were turning at that moment.
+which we were turning at that moment.</p>
 
-> This is a blockquote.
 
 At the gate I saw an ancient iron cannon; the streets were narrow an crooked; the
 houses low and ost of them had straw thatches. I ordered the 
