@@ -3,21 +3,23 @@
  */
 .site-header {
     min-height: 56px;
+    padding: 35px;
+    border-bottom: 1px solid #000;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    @include outer-container;
 }
 
 .site-title {
-    font: 18pt/1.5 serif;
+    font: 32pt/1.5 'Soria', serif;
+    text-transform: uppercase;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
     position: absolute;
-    top: 0px;
-    letter-spacing: 2px;
-    left: 10%;
+    top: 19px;
+    left: 20px;
     float: left;
 
     &,
@@ -49,10 +51,10 @@
 
     // Navigation icon
         position: absolute;
-        top: 9px;
+        top: 31px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: #fff;
+        //border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
@@ -208,27 +210,28 @@
 }
 
 .post-title {
-    font: 32pt/1.5 'Playfair Display', serif;
+    font: 44pt/1.5 'Soria', serif;
     text-align: center;
+    margin-bottom: 5px;
 
     @include media-query($on-laptop) {
-        font: 32pt/1.5 'Playfair Display', serif;
+        font: 32pt/1.5  serif;
     }
 }
 
 .post-cool {
-    font: 15pt/1.5 'Playfair Display', serif;
+    font: 14pt/1.5  'Playfair Display', serif;
     text-align: center;
-    margin-bottom: 9px;
     padding-bottom: 0;
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
+    @include outer-container;
 
     p {
-        width: 33em;
-        font: 14pt/1.5 serif;
+        max-width: 33em;
+        font: 14pt/1.5 'Day Roman', serif;
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         text-indent: 0.75em;
@@ -243,11 +246,11 @@
     }
 
     h2 {
-        font: 24pt/1.5 'Playfair Display', serif;
+        font: 24pt/1.5  serif;
         margin-bottom: 0;
 
         @include media-query($on-laptop) {
-            font: 24pt/1.5 'Playfair Display', serif;
+            font: 24pt/1.5  serif;
         }
     }
 
@@ -276,5 +279,17 @@
 }
 
 .bigo {
-    font: 24pt/1.5 'Playfair Display', serif;
+    font: 24pt/1.5  serif;
+}
+
+#no-indent {
+    text-indent: 0;
+}
+
+.paginate {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 10em;
+    font: 11pt/1.5 'Montserrat',sans-serif;
+    text-align: center;
 }

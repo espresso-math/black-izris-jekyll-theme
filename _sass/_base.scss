@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #ffffff;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -171,16 +171,17 @@ pre {
 
 .wrapper-e {
     max-width: 37em;
-    margin-right: auto;
-    margin-left: 30%;
+    margin-left: 225px;
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 20px;
     margin-top: 13em;
     @extend %clearfix;
 
     @include media-query($on-palm) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        margin-left: 10%;
+        margin-right: 5%;
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
