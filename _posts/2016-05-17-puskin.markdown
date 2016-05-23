@@ -3,10 +3,11 @@ layout: post
 title:  "The Fortress"
 date:   2016-05-17 16:24:38 +0530
 categories: pushkin
+author: Alexander Puskin
 ---
 
 <p id="gohug">
-<span class = "kern"><span class = "bigo">T</span></span>he Belogorsk fortress was situated at a distance of forty 
+The Belogorsk fortress was situated at a distance of forty 
 versts from Orenburg. The road lay along the steep bank of the 
 Yaik. The river was not yet frozen over, and its leaden current
 showed dark and dreary between the monotonous snow-covered

@@ -19,6 +19,10 @@ function paginate(avg_count) {
 		var stripped = page_element[i].innerHTML.replace('  ', '');
 		char_count += stripped.length;
 
+		if (i===1) {
+			page_element[i].setAttribute('class', 'dropcap');
+		}
+
 		if (char_count >= avg_count) {
 			var di = document.createElement('div');
 			di.setAttribute('class', 'paginate');

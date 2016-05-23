@@ -14,7 +14,6 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: #ffffff;
     -webkit-text-size-adjust: 100%;
@@ -111,8 +110,14 @@ a {
  */
 blockquote {
     padding-left: $spacing-unit / 2;
-    font: 12pt/1.2 serif;
+    margin-left: 9%;
+    font: 9pt/1.2 'Day Roman', serif;
     font-style: italic;
+
+    p {
+       font: 12pt/1.5 'Day Roman', serif !important;
+       text-align: none !important;
+    }
 
     > :last-child {
         margin-bottom: 0;
@@ -153,13 +158,13 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    @include outer-container;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    margin-top: 35px;
+    max-width: $content-width + $spacing-unit * 7;
     @extend %clearfix;
+
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -171,16 +176,24 @@ pre {
 
 .wrapper-e {
     max-width: 37em;
-    margin-left: 225px;
+    margin-left: percentage( 225px / 1351px);
     padding-right: 0;
     padding-left: 20px;
-    margin-top: 13em;
+    margin-top: 5em;
     @extend %clearfix;
 
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
     @include media-query($on-palm) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        margin-left: 10%;
+        margin-left: 5%;
         margin-right: 5%;
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;

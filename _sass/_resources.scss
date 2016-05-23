@@ -5,31 +5,61 @@
 
 
 @font-face {
-	font-family: 'Fertigo Pro';
-	src: url('../assets/fonts/Fertigo_PRO.otf');
+    font-family: 'Soria';
+    src: url('/assets/fonts/soria-font-webfont.woff2') format('woff2'),
+         url('/assets/fonts/soria-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Day Roman';
+    src: url('/assets/fonts/dayrom__-webfont.woff2') format('woff2'),
+         url('/assets/fonts/dayrom__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/assets/fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/assets/fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/assets/fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-	font-family: 'Day Roman';
-	src: url('../assets/fonts/DAYROM__.ttf');
-}
-
-@font-face {
-	font-family: 'Day Roman Lig';
-	src: url('../assets/fonts/DAYROM_X.ttf');
-}
-
-@font-face {
-	font-family: 'Zallman';
-	src: url('../assets/fonts/zallmancaps-webfont.ttf');
-}
-
-@font-face {
-	font-family: 'Artifika Regular';
-	src: url('../assets/fonts/Artifika-Regular.ttf');
-}
-
-@font-face {
-	font-family: 'Soria';
-	src: url('../assets/fonts/soria-font.ttf')
+    font-family: 'Adam CG';
+    src: url('/assets/fonts/adamprocg.otf');
 }

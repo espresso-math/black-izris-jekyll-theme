@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Soria", serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -21,9 +21,14 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$link: #8AB9D1;
+$accent: #24536B;
+$accent2: #C21700;
+$accent3: #AA353E;
 
 // Width of the content area
 $content-width:    800px;
+$page-area-width: 100%;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -49,8 +54,8 @@ $on-laptop:        800px;
 @import
 		"3rd_party/bourbon/bourbon",
         "3rd_party/neat/neat",
+        "resources",
         "base",
         "layout",
-        "syntax-highlighting",
-        "resources"
+        "syntax-highlighting"
 ;
