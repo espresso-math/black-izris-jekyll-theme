@@ -43,6 +43,19 @@ ul, ol, dl, figure,
 /**
  * Images
  */
+
+img.wrap-around {
+    float: right;
+    max-width: 60%;
+    height: auto;
+    margin: 25px;
+    border-radius: 3px;
+    padding: 0;
+    background-color: #ddd;
+
+}
+
+
 img {
     max-width: 100%;
     vertical-align: middle;

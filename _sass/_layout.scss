@@ -394,6 +394,10 @@ p.dropcap:first-child:first-letter {
     }
 }
 
+.grid-three:last-of-type, .grid-four:last-of-type, .grid-two:last-of-type {
+    border-bottom: none;
+}
+
 .horizontal {
     font: 12pt/1.5 serif;
     float: left;

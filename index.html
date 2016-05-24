@@ -4,8 +4,8 @@ layout: default_front
 
 {% for i in site.posts %}  {% assign l = forloop.length %} {% break %} {% endfor %}
 {% assign arr = "4|2|3|2" | split:"|" %}
-{% assign counter = 0 %}
-{% assign first = 1 %}
+{% assign counter = -1 %}
+{% assign first = 0 %}
 {% assign last = 0 %}
 {% for i in (1..l) %} 
   {% for j in arr %}
@@ -57,7 +57,7 @@ layout: default_front
     {% if j == '3' %}
       <div class="grid-three">
 
-          {% for i in (first..counter) %}{% if i == l %} {% continue %} {% endif %}
+          {% for i in (first..counter) %}{% if i == l %} {% break %} {% endif %}
         <article class="horizontal">
           <h1 class="title" itemprop="name headline"><a href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a></h1>
           <!--{% if page.author %}<h2 class="post-author"><span class="p-a-by">By </span>{{ page.author }}</h2>{% endif %}-->
@@ -81,4 +81,5 @@ layout: default_front
   {% endfor %}
 
 {% endfor %}
+
 

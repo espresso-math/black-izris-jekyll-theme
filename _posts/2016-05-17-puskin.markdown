@@ -6,7 +6,7 @@ categories: pushkin
 author: Alexander Puskin
 ---
 
-<p id="gohug">
+
 The Belogorsk fortress was situated at a distance of forty 
 versts from Orenburg. The road lay along the steep bank of the 
 Yaik. The river was not yet frozen over, and its leaden current
@@ -19,15 +19,14 @@ a picture of a severe, bad-tempered old man, oblivious to all but
 the service, and ready to arrest me and put me on bread and
 water for the most trivial offence. The dusk was beginning to
 fall. We were driving at a fair speed. "Is it far to the fortress?"
-I asked my driver. "Not very," he replied. "It's just comming into
-sight, yonder." I looked all around me, expecting to see formidable
+I asked my driver. "Not very," he replied. ![Puskin at work](https://upload.wikimedia.org/wikipedia/commons/c/cb/Pushkin_Alexander_by_Sokolov_P..jpg){: .wrap-around } "It's just comming into sight, yonder." I looked all around me, expecting to see formidable
 bastions, turrets, and ramparts; but I could see nothing 
 but a huddle of wooden buildings surrounded by a log fence.
 On one side of the road were three or four haystacks, half-
 covered with snow, on the other a tumble-down mill with idly
 drooping bark sails. "Where's the fortress?" I asked in surprise.
 "There it is," replied the driver, pointing to the hamlet into 
-which we were turning at that moment.</p>
+which we were turning at that moment.
 
 
 At the gate I saw an ancient iron cannon; the streets were narrow an crooked; the
