@@ -120,6 +120,7 @@
         float: left;
         display: block;
         padding: 0;
+        padding-top: 3px;
         vertical-align: middle;
         padding-right: 10px;
         text-align: center;
@@ -274,7 +275,7 @@
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         text-indent: 0.75em;
-        text-align: justify;
+        text-align: none;
 
         @include media-query($on-palm) {
             text-align: left;
@@ -362,6 +363,8 @@ p.dropcap:first-child:first-letter {
     width: $page-area-width;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 35px;
+
 
     border-bottom: 1px solid #333;
     padding-bottom: 35px;
@@ -391,8 +394,6 @@ p.dropcap:first-child:first-letter {
     }
 }
 
-
-
 .horizontal {
     font: 12pt/1.5 serif;
     float: left;
@@ -412,6 +413,8 @@ p.dropcap:first-child:first-letter {
         width: 100%;
     }
 
+
+
     // Content styling
 
     h1 {
@@ -419,6 +422,13 @@ p.dropcap:first-child:first-letter {
         text-align: center;
         letter-spacing: 1px;
         text-transform: uppercase;
+
+        @include media-query($on-palm) {
+            font: 12pt/1.2 'Soria', serif;
+        }
+        @include media-query($on-laptop) {
+            font: 16pt/1.2 'Soria', serif;
+        }
 
         a, a:visited, a:active {
             color: #222;
