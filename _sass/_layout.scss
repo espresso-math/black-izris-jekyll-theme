@@ -12,20 +12,27 @@
 }
 
 .site-title {
-    font: 32pt/1.5 'Soria', serif;
-    text-transform: uppercase;
+    font: 4rem/1.5 'Soria', serif;
+    text-rendering: geometric-precision;
     font-weight: 300;
+    letter-spacing: 23px;
+    text-transform: uppercase;
     line-height: 56px;
     margin-bottom: 0;
+    width: 99%;
+    text-align: center;
     position: absolute;
-    top: 19px;
-    left: 20px;
+    top: 75px;
+    left: 50% - 99% / 2;
     float: left;
-    color: #333;
+
+    .first {
+        font-size: 5rem;
+    }
 
     &,
     &:visited {
-        color: #333;
+        color: $n-accent;
     }
     &:hover {
         text-decoration: none;
@@ -101,36 +108,29 @@
 
 .sub-header {
     @include outer-container;
-    border-top: 1px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-dark;
-    padding: 5px;
-    width: 100%;
-    .navigation {
-        margin-left: 2%;
-    }
+    text-align: center;
+    margin-top: 105px;
+    border-top: 1px solid $m-accent;
+    border-bottom: 1px solid $m-accent;
 
     ul {
-        padding: 1px;
-        margin: 0 auto;
+        margin: 0;
+        padding: 1em;
     }
 
     li {
-        font: 9pt/0.9 'Adam CG', serif;
-        font-weight: 500;
-        float: left;
-        display: block;
-        padding: 0;
-        padding-top: 3px;
-        vertical-align: middle;
-        padding-right: 10px;
-        text-align: center;
+        display: inline-block;
+        padding: 0.5em;
+        font: 0.9rem/0 "Adam CG", sans-serif;
 
-        a, a:visited, a:active {
-            color: #000;
-        }
-        a:hover {
-            color: #000;
-            text-decoration: none;
+        a {
+            color: $n-accent;
+            &:visited, &:active {
+                color: $n-accent;
+            }
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }
@@ -246,7 +246,7 @@
 }
 
 .post-title {
-    font: 44pt/1.0 'Soria', serif;
+    font: 44pt/1.2 'Soria', serif;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -255,6 +255,7 @@
     font: 14pt/1.5  'Playfair Display', serif;
     text-align: center;
     padding-bottom: 0;
+    margin-bottom: 70px;
 
     .by {
         font-style: italic;
@@ -268,6 +269,7 @@
 .post-content {
     margin-bottom: $spacing-unit;
     @include outer-container;
+
 
     p {
         max-width: 33em;
@@ -294,7 +296,7 @@
     }
 
     h2 {
-        font: 34pt/1.5 'Soria', serif;
+        font: 34pt/1.5 'Playfair Display', serif;
         padding-bottom: 4%;
 
         @include media-query($on-laptop) {
@@ -330,6 +332,7 @@ p.dropcap:first-child:first-letter {
     font: 46pt/1.5 'Playfair Display', serif;
     float: left;
     display: block;
+    vertical-align: bottom;
     margin-right: 5px;
     margin-top: 11px;
     line-height: .45;
@@ -348,7 +351,7 @@ p.dropcap:first-child:first-letter {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 10em;
-    font: 11pt/1.5 'Soria', serif;
+    font: 11pt/1.5 'Playfair Display', serif;
     text-align: center;
 }
 
@@ -366,14 +369,14 @@ p.dropcap:first-child:first-letter {
     margin-top: 35px;
 
 
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid $m-accent;
     padding-bottom: 35px;
 }
 
 .grid-two {
     @extend %clearfix;
     width: $page-area-width;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid $m-accent;
     padding-bottom: 35px;
     margin-top: 35px;
 
@@ -385,7 +388,7 @@ p.dropcap:first-child:first-letter {
 .grid-three {
     @extend %clearfix;
     width: $page-area-width;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid $m-accent;
     padding-bottom: 35px;
     margin-top: 35px;
 
@@ -405,7 +408,7 @@ p.dropcap:first-child:first-letter {
     padding-left: 20px;
     overflow: hidden;
     width: $page-area-width / 4; 
-    border-right: 1px solid #333;
+    border-right: 1px solid $m-accent;
     padding-top: 5px;
     padding-bottom: 5px;
 
@@ -422,16 +425,14 @@ p.dropcap:first-child:first-letter {
     // Content styling
 
     h1 {
-        font: 18pt/1.2 'Soria', serif;
+        font: 18pt/1.2 'Adam CG', serif;
         text-align: center;
-        letter-spacing: 1px;
-        text-transform: uppercase;
 
         @include media-query($on-palm) {
-            font: 12pt/1.2 'Soria', serif;
+            font: 12pt/1.2 'Adam CG', serif;
         }
         @include media-query($on-laptop) {
-            font: 16pt/1.2 'Soria', serif;
+            font: 16pt/1.2 'Adam CG', serif;
         }
 
         a, a:visited, a:active {

@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Soria", serif;
+$base-font-family: "Playfair Display", serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -25,6 +25,9 @@ $link: #8AB9D1;
 $accent: #24536B;
 $accent2: #C21700;
 $accent3: #AA353E;
+$m-accent: #333;
+$n-accent: $m-accent;
+$l-accent: #272542;
 
 // Width of the content area
 $content-width:    800px;

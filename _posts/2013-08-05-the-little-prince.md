@@ -10,7 +10,7 @@ category: articles
 
  It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing:
  
- ![Drawing A]({{ site.url }}/images/money.jpg)
+ ![Drawing A](/assets/img/placeholder/submarine.png)
  
  In the book it said: “Boa constrictors swallow their prey whole, without
 chewing it. After that they are not able to move, and they sleep through the
