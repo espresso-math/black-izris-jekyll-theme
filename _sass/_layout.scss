@@ -13,7 +13,6 @@
 
 .site-title {
     font: 4rem/1.5 'Soria', serif;
-    text-rendering: geometric-precision;
     font-weight: 300;
     letter-spacing: 23px;
     text-transform: uppercase;
@@ -249,6 +248,7 @@
     font: 44pt/1.2 'Soria', serif;
     text-align: center;
     margin-bottom: 15px;
+    letter-spacing: 5px;
 }
 
 .post-cool {
@@ -332,9 +332,9 @@ p.dropcap:first-child:first-letter {
     font: 46pt/1.5 'Playfair Display', serif;
     float: left;
     display: block;
-    vertical-align: bottom;
     margin-right: 5px;
-    margin-top: 11px;
+    padding: 0;
+    margin-top: 12px;
     line-height: .45;
 
 }
@@ -354,8 +354,6 @@ p.dropcap:first-child:first-letter {
     font: 11pt/1.5 'Playfair Display', serif;
     text-align: center;
 }
-
-
 
 // 
 //  Front Page Layout

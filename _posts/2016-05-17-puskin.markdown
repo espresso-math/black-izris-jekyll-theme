@@ -4,7 +4,6 @@ title:  "The Fortress"
 date:   2016-05-17 16:24:38 +0530
 categories: pushkin
 author: Alexander Puskin
-math: true
 ---
 
 
@@ -29,9 +28,6 @@ drooping bark sails. "Where's the fortress?" I asked in surprise.
 "There it is," replied the driver, pointing to the hamlet into 
 which we were turning at that moment.
 
-<div class="math">
-	$$ c = \pm\sqrt{a^2 + b^2} $$
-</div>
 
 At the gate I saw an ancient iron cannon; the streets were narrow an crooked; the
 houses low and ost of them had straw thatches. I ordered the 
