@@ -12,7 +12,7 @@
 }
 
 .site-title {
-    font: 4rem/1.5 'Soria', serif;
+    font: 4rem/1.5 $display-font;
     font-weight: 300;
     letter-spacing: 23px;
     text-transform: uppercase;
@@ -120,7 +120,7 @@
     li {
         display: inline-block;
         padding: 0.5em;
-        font: 0.9rem/0 "Adam CG", sans-serif;
+        font: 0.9rem/0 $sans-serif;
 
         a {
             color: $n-accent;
@@ -245,14 +245,14 @@
 }
 
 .post-title {
-    font: 44pt/1.2 'Soria', serif;
+    font: 44pt/1.2 $display-font;
     text-align: center;
     margin-bottom: 15px;
     letter-spacing: 5px;
 }
 
 .post-cool {
-    font: 14pt/1.5  'Playfair Display', serif;
+    font: 14pt/1.5  $subtle-hint-font;
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 70px;
@@ -273,7 +273,7 @@
 
     p {
         max-width: 33em;
-        font: 14pt/1.5 'Day Roman', serif;
+        font: 13.65pt/1.5 $base-font-family;
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         text-indent: 0.75em;
@@ -296,7 +296,7 @@
     }
 
     h2 {
-        font: 34pt/1.5 'Playfair Display', serif;
+        font: 34pt/1.5 $subtle-hint-font;
         padding-bottom: 4%;
 
         @include media-query($on-laptop) {
@@ -329,12 +329,12 @@
 }
 
 p.dropcap:first-child:first-letter {
-    font: 46pt/1.5 'Playfair Display', serif;
+    font: 46pt $subtle-hint-font;
     float: left;
     display: block;
     margin-right: 5px;
     padding: 0;
-    margin-top: 12px;
+    margin-top: 11px;
     line-height: .45;
 
 }
@@ -351,7 +351,7 @@ p.dropcap:first-child:first-letter {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 10em;
-    font: 11pt/1.5 'Playfair Display', serif;
+    font: 11pt/1.5 $subtle-hint-font;
     text-align: center;
 }
 
@@ -423,14 +423,14 @@ p.dropcap:first-child:first-letter {
     // Content styling
 
     h1 {
-        font: 18pt/1.2 'Adam CG', serif;
+        font: 18pt/1.2 $sans-serif;
         text-align: center;
 
         @include media-query($on-palm) {
-            font: 12pt/1.2 'Adam CG', serif;
+            font: 12pt/1.2 $sans-serif;
         }
         @include media-query($on-laptop) {
-            font: 16pt/1.2 'Adam CG', serif;
+            font: 16pt/1.2 $sans-serif;
         }
 
         a, a:visited, a:active {
@@ -446,13 +446,13 @@ p.dropcap:first-child:first-letter {
 
     .cool {
         text-align: center;
-        font: 10pt/1.2 'Playfair Display', serif;
+        font: 10pt/1.2 $subtle-hint-font;
         color: $accent2;
     }
 
     .excerpt {
         margin-top: $spacing-unit;
-        font: 11pt/1.2 'Day Roman', serif;
+        font: 11pt/1.2 $base-font-family;
     }
 
 }

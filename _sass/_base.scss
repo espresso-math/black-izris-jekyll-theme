@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     color: $text-color;
-    background-color: #ffffff;
+    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -80,6 +80,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    font: 13pt/1.2 $base-font-family;
 }
 
 li {
