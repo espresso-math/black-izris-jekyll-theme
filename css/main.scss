@@ -29,9 +29,10 @@ $link: #8AB9D1;
 $accent: #24536B;
 $accent2: #C21700;
 $accent3: #AA353E;
-$m-accent: #333;
+$m-accent: #000;
 $n-accent: $m-accent;
-$l-accent: #272542;
+$l-accent: lighten(#000, 70%);
+$border-style: solid;
 
 // Width of the content area
 $content-width:    800px;

@@ -1,12 +1,12 @@
-title: "Black Izris"
-working-title: "<span class='first'>B</span>lack <span class='first'>I</span>zris"
+title: "Then Some"
+working-title: "<span class='first'>T</span>hen <span class='first'>S</span>ome"
 email: 
 
 permalink:  /:categories/:title/
 description: > 
   A Theme for which I have high hopes
 baseurl: "" 
-url: "http://this.ez.lv"
+url: "http://ir.ez.lv"
 
 markdown: kramdown
 
