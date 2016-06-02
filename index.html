@@ -23,7 +23,7 @@ layout: default_front
           <!--{% if page.author %}<h2 class="post-author"><span class="p-a-by">By </span>{{ page.author }}</h2>{% endif %}-->
           <p class="cool"><time datetime="{{ site.posts[i].date | date_to_xmlschema }}" itemprop="datePublished">{{ site.posts[i].date | date: "%b %-d, %Y" }}</time>{% if site.posts[i].author %} </span>{% endif %} </p>
           <p class="excerpt">
-          <span>{{ site.posts[i].excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncatewords: 25 }}</span>
+          <span>{{ site.posts[i].excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncatewords: 15 }}</span>
           </p>
           <center><div class="thin-line"></div></center>
         </article>
@@ -43,7 +43,7 @@ layout: default_front
           <!--{% if page.author %}<h2 class="post-author"><span class="p-a-by">By </span>{{ page.author }}</h2>{% endif %}-->
           <p class="cool"><time datetime="{{ site.posts[i].date | date_to_xmlschema }}" itemprop="datePublished">{{ site.posts[i].date | date: "%b %-d, %Y" }}</time>{% if site.posts[i].author %} </span>{% endif %} </p>
           <p class="excerpt">
-          <span>{{ site.posts[i].excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncatewords: 25 }}</span>
+          <span>{{ site.posts[i].excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncatewords: 15 }}</span>
           </p>
           <center><div class="thin-line"></div></center>
         </article>
@@ -63,7 +63,7 @@ layout: default_front
           <!--{% if page.author %}<h2 class="post-author"><span class="p-a-by">By </span>{{ page.author }}</h2>{% endif %}-->
           <p class="cool"><time datetime="{{ site.posts[i].date | date_to_xmlschema }}" itemprop="datePublished">{{ site.posts[i].date | date: "%b %-d, %Y" }}</time>{% if site.posts[i].author %} </span>{% endif %} </p>
           <p class="excerpt">
-          <span>{{ site.posts[i].excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncatewords: 25 }}</span>
+          <span>{{ site.posts[i].excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncatewords: 15 }}</span>
           </p>
           <center><div class="thin-line"></div></center>
         </article>

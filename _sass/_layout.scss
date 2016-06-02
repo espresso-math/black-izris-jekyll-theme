@@ -368,14 +368,14 @@ p.dropcap:first-child:first-letter {
     margin-top: 55px;
 
 
-    border-bottom: 1px $border-style $l-accent;
+    border-bottom: 1px $border-style $h-accent;
     padding-bottom: 55px;
 }
 
 .grid-two {
     @extend %clearfix;
     width: $page-area-width;
-    border-bottom: 1px $border-style $l-accent;
+    border-bottom: 1px $border-style $h-accent;
     padding-bottom: 55px;
     margin-top: 55px;
 
@@ -387,7 +387,7 @@ p.dropcap:first-child:first-letter {
 .grid-three {
     @extend %clearfix;
     width: $page-area-width;
-    border-bottom: 1px $border-style $l-accent;
+    border-bottom: 1px $border-style $h-accent;
     padding-bottom: 55px;
     margin-top: 55px;
 
@@ -411,7 +411,7 @@ p.dropcap:first-child:first-letter {
     padding-top: 5px;
     padding-bottom: 5px;
 
-    height: 250px;
+    height: 200px;
 
     @include media-query($on-palm) {
         float: none;
@@ -424,7 +424,7 @@ p.dropcap:first-child:first-letter {
     // Content styling
 
     h1 {
-        font: 18pt/1.2 $sans-serif;
+        font: 16pt/1.2 $sans-serif;
         text-align: center;
 
         @include media-query($on-palm) {
@@ -447,14 +447,15 @@ p.dropcap:first-child:first-letter {
 
     .cool {
         text-align: center;
-        font: 10pt/1.2 $subtle-hint-font;
-        color: $accent2;
+        font: 10.65pt/1.2 $subtle-hint-font;
+        color: rgb(223, 51, 49);
+        font-weight: normal;
     }
 
     .excerpt {
         margin-top: $spacing-unit;
         font: 11.45pt/1.2 $base-font-family;
-        text-align: middle;
+        text-align: center;
     }
 
 }
