@@ -8,6 +8,7 @@
 // Our variables
 $base-font-family: "Day Roman", serif;
 $display-font: "Soria", serif;
+$display-font-one: "Soria", serif;
 $sans-serif: "Adam CG", sans-serif;
 $subtle-hint-font: "Playfair Display", serif;
 
@@ -19,7 +20,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fffff8;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -29,9 +30,10 @@ $link: #8AB9D1;
 $accent: #24536B;
 $accent2: #C21700;
 $accent3: #AA353E;
-$m-accent: #000;
-$n-accent: $m-accent;
-$l-accent: lighten(#000, 70%);
+$m-accent: #121212;
+$n-accent: #121212;
+$s-accent: #212121;
+$l-accent: lighten(#000, 6%);
 $border-style: solid;
 
 // Width of the content area

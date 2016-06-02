@@ -19,3 +19,9 @@ $(document).ready( function () {
 	}
 });
 
+
+// Initiate Layzr Image loader
+
+const lazyr = Layzr({
+	normal: 'src'
+});
