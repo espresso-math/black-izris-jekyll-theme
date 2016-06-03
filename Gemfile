@@ -7,3 +7,8 @@ group :jekyll_plugins do
   gem 'jekyll-watch'
   gem 'jekyll-sitemap'
 end
+
+group :test do
+  gem 'rake'
+  gem 'rspec'
+end
