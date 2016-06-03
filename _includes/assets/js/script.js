@@ -25,3 +25,4 @@ $(document).ready( function () {
 const lazyr = Layzr({
 	normal: 'src'
 });
+

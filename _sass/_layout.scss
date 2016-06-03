@@ -108,11 +108,14 @@
 
 .sub-header {
     @include outer-container;
+    width: 75%;
     text-align: center;
     margin-top: 150px;
     border-top: 1px solid $m-accent;
     border-bottom: 1px solid $m-accent;
-
+    @include media-query($on-palm) {
+        width: 100%;
+    }
     ul {
         margin: 0;
         padding: 1em;
@@ -375,24 +378,30 @@ p.dropcap:first-child:first-letter {
 .grid-two {
     @extend %clearfix;
     width: $page-area-width;
-    border-bottom: 1px $border-style $h-accent;
+    //border-bottom: 1px $border-style $h-accent;
     padding-bottom: 55px;
     margin-top: 55px;
 
     .horizontal:first-of-type {
         margin-left: 50% - $page-area-width / 4;
+        @include media-query($on-laptop) {
+            margin-left: 50% - $page-area-width / 4 - $page-area-width / 8;
+        }
     }
 }
 
 .grid-three {
     @extend %clearfix;
     width: $page-area-width;
-    border-bottom: 1px $border-style $h-accent;
+    //border-bottom: 1px $border-style $h-accent;
     padding-bottom: 55px;
     margin-top: 55px;
 
     .horizontal:first-of-type {
         margin-left: 50% - $page-area-width / 4 - $page-area-width / 8;
+        @include media-query($on-laptop) {
+            margin-left: 50% - $page-area-width / 3 - $page-area-width / 8;
+        }
     }
 }
 
@@ -408,15 +417,20 @@ p.dropcap:first-child:first-letter {
     overflow: hidden;
     width: $page-area-width / 4; 
     border-right: 1px $border-style $l-accent;
+    border-bottom: 1px $border-style $h-accent;
     padding-top: 5px;
     padding-bottom: 5px;
 
-    height: 200px;
+    height: 250px;
 
     @include media-query($on-palm) {
         float: none;
         border: none;
-        width: 100%;
+        width: 70%;
+        margin: 0 auto;
+    }
+    @include media-query($on-laptop) {
+        width: $page-area-width / 3;
     }
 
 
