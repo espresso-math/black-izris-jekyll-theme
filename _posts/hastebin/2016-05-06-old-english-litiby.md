@@ -2,7 +2,7 @@
 layout: post
 title: Slack based comments
 author: Tim Brown
-maths:true
+maths: true
 ---
 
 
