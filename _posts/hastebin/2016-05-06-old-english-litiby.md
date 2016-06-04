@@ -18,7 +18,7 @@ Nam eā simūl perfēcÞo ūrbænitæs. Te mel vertērem inciðerint, amet ērro
 
 <maths display>
 f(x) = \frac{4 - q^2}{3q - 5}
-<maths>
+</maths>
 
 
 Nīhīl popūlo ad ēst, sēd meƿtitum intelleġǣm īd. Aliquǣndo ǽrgumentum te usū, prōbo novum nominæti vix Þe, vis vide delicātā complectiÞur eu? Pro consul delicæta at. Ex hǣs ēros assum voluptæÞibus, duō ǣt mutæt ðominġ scrīpÞa, Þē meī orāÞio nostro repreheƿdūnt. In prīmā āequē percipitūr per, eūm et lībris ūÞamūr placerāt. Solum ceÞero est ne, eum cu nisl sumo dispuÞǽtiōni, vīs splendiðe arġumentum eū!
